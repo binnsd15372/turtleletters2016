@@ -71,7 +71,7 @@ def turtleLetter(letter,tur):
     elif letter == "I":
 	    pass
     elif letter == "J":
-	tur.pd()
+        tur.pd()
         tur.forward(20)
         tur.left(180)
         tur.forward(10)
@@ -120,7 +120,7 @@ def turtleLetter(letter,tur):
     elif letter == "S":
 	    pass
     elif letter == "T":
-	tur.pd()
+        tur.pd()
         tur.forward(20)
         tur.left(180)
         tur.forward(10)
