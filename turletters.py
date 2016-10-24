@@ -36,12 +36,10 @@ def turtleLetter(letter,tur):
 	    pass
     elif letter == "C":
 	tur.penup()
-        tur.setposition(35, -30)
         tur.pendown()
         tur.left(45)
         tur.circle(15,270)
         tur.penup()
-        tur.setposition(41,0)
         tur.pendown()
     elif letter == "D":
 	    pass
@@ -66,9 +64,8 @@ def turtleLetter(letter,tur):
         tur.fd(20)
         tur.right(90)
         tur.fd(30)
-        tur.right(0)
-        tur.fd(5)
-                              
+        tur.right(180)
+        tur.fd(35)             
     elif letter == "F":
 	    pass
     elif letter == "G":
@@ -78,7 +75,7 @@ def turtleLetter(letter,tur):
     elif letter == "I":
 	    pass
     elif letter == "J":
-        tur.pd()
+	tur.pd()
         tur.forward(20)
         tur.left(180)
         tur.forward(10)
@@ -127,7 +124,7 @@ def turtleLetter(letter,tur):
     elif letter == "S":
 	    pass
     elif letter == "T":
-        tur.pd()
+	tur.pd()
         tur.forward(20)
         tur.left(180)
         tur.forward(10)
